@@ -29,7 +29,8 @@ Activate virtual environment (Windows)
 venv\Scripts\activate
 
 Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.
+pip install -r requirements-dev.
 
 Run the demonstration
 python examples/demo.py
@@ -106,7 +107,6 @@ pytest tests/ --cov=edit_distance --cov-report=html
 | 50×50         | 1.2ms         | 1.1ms          | 98%           |
 | 100×100       | 4.8ms         | 4.5ms          | 99%           |
 
-
 ## 📸 Screenshots
 
 All outputs and code implementations are documented in the `screenshots/` folder:
@@ -116,7 +116,6 @@ All outputs and code implementations are documented in the `screenshots/` folder
 - **Coverage Report**: Testing coverage analysis demonstrating thorough validation
 - **Demo Output**: Full demonstration script execution (split across multiple images due to length)
 - **HTML Coverage**: Optional browser-based coverage visualization
-
 
 ## 👨‍💻 Author
 
